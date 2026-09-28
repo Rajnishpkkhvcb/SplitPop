@@ -19,6 +19,8 @@
 @media(max-width:650px){.home{padding:8px 0 32px}.home-display{height:190px;max-width:320px}.home-art{width:145px;height:137px}.art-emoji{font-size:66px}.art-avatar{width:46px;height:46px;font-size:27px}.home-bubble{font-size:10px}.bubble-top{left:0}.bubble-bottom{right:0}.home h1{font-size:clamp(48px,12vw,70px);letter-spacing:-3px}.page-head{flex-wrap:wrap}.page-actions{width:100%}.page-actions .outline{width:100%}.page-head>.outline{font-size:12px;padding:9px}.your-groups-top{align-items:start;flex-direction:column}.your-groups-top>div{padding-bottom:10px}.group-footer{margin-bottom:10px}.modal-decoration{flex-wrap:wrap}.preview-plus{width:100%;padding:5px 0 0 0}}
 
 /* Chrome/Edge: click Download PDF, select Save as PDF in the print dialog. */
+@media(max-width:650px){.overlay{place-items:start center;padding:max(12px,env(safe-area-inset-top)) 12px max(12px,env(safe-area-inset-bottom))}.dialog{width:100%;max-height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 24px);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scroll-padding-block:20px}.dialog input:not([type="checkbox"]):not([type="file"]){font-size:16px;scroll-margin-block:20px}.shell:has(.overlay) .bottom-nav{display:none}}
+
 @page{size:A4;margin:13mm}
 @media print{
  :root,body{background:white!important;color:#29233f!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
